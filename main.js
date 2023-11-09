@@ -5,7 +5,7 @@ const segundaLinha = document.querySelector('#segundaLinha');
 const terceiraLinha = document.querySelector('#terceiraLinha');
 
 const teclaPrimeiraLinha = ['Q','W','E','R','T','Y','U','I','O','P'];
-const teclaSegundaLinha =  ['A','S','D','F','G','H','J','K','L'];
+const teclaSegundaLinha  = ['A','S','D','F','G','H','J','K','L'];
 const teclaTerceiraLinha = ['Z','X','C','V','B','N','M'];
 
 const linha = 6;
@@ -14,7 +14,7 @@ const linhaAtual = 0;
 const colunaAtual = 0;
 
 let palavras = ['SENAI','MILHO','NOITE','LETRA','MOUSE'];
-let palavra = palavras[Math.floor(Math.random()* palavras.length)];
+let palavra = palavras[Math.floor(Math.random() * palavras.length)];
 console.log(palavra);
 
 let palavraMapa = {};
